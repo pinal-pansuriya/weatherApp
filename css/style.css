@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#loginform{
+    background-color:brown;
+    width: 500px;
+    height: min-content;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 150px;
+    margin-left: 300px;
+    color :aliceblue;
+    
+}
+#registerform{
+    background-color: brown;
+    width: 500px;
+    height: min-content;
+    color: aliceblue;
+    margin-top: 150px;
+    margin-left: 300px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.container{
+    padding-right: 50px;
+    display: flex;
+    justify-content: right;
+}
+
+h2{
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.header{
+   width: 300px;
+   height: min-content;
+   background-color:brown;
+    padding: 50px;
+}
+
+.search-box{
+    padding-top: 10px;
+    gap: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.temperature{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    color: aliceblue;
+    font-size: 30px;
+}
+
+.temperature sup{
+    font-size: 10px;
+}
+
+.weather-details{
+    display: flex;
+    justify-content: center;
+    gap :10px;
+    color: aliceblue;
+    flex-direction: row;
+
+}
+.current{
+    margin-top: 50px;
+    padding-left: 50px;
+    padding-top: 50px;
+   margin-left: 50px;
+    display: flex;
+    justify-content: right;
+    width: 200px;
+   height: 100px;
+   background-color:brown;  
+   color: aliceblue;
+   gap: 10px;
+   flex-direction: column;
+}
+

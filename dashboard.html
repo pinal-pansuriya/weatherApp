@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body onload="dashBoard()">
+
+    <h1 id="nameHeading" align="center"></h1>
+   
+    <div class="current">
+        <div class="location">
+        <h4>current-location-weather</h4>
+       
+        <p id="current-weather"><p>
+    
+        <p id="humidity1"></p>
+    
+    </div>
+    </div>
+
+    <div class="container">
+        <div class="header">
+            <h2>weatherApp</h2>
+            <div class="search-box">
+                <input type="text" placeholder="Enter Your City Name" class="input-box">
+                <button class="searchbtn">search</button>
+            </div>
+
+            <div class="weather-body">
+
+                <p class="temperature"><sup>°C</sup></p>
+            </div>
+            <div class="weather-details">
+                <p id="humidity"></p>
+                <p>Humidity</p>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+<script src="./js/dashboard.js"></script>
+
+</html>
